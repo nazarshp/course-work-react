@@ -1,0 +1,47 @@
+.canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 40px;
+}
+
+#playButton {
+    background-color: transparent;
+    border: none;
+}
+
+#playButtonImage {
+    height: 50px;
+}
+
+#ffButton {
+    background-color: transparent;
+    border: none;
+}
+
+#ffButtonImage {
+    height: 50px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,29 @@
+.columns {
+  margin: 5px 5px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.column {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.dijkstra-canvas {
+  border: 1px solid blue;
+}
+
+.input {
+  display: flex;
+  gap: 5px;
+}
+
+.input > input {
+  width: 35px;
+  font-size: 20px;
+}
+
+.message-text + .message-text {
+  margin-top: 5px;
+}

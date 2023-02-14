@@ -1,0 +1,23 @@
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #000;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.row-col-num {
+  font-weight: bold;
+  color: #9F20FF;
+}
+
+.active-cell {
+  color: #FF0000;
+  border: 2px solid #FF0000;
+  /* border-color: #FF0000; */
+}

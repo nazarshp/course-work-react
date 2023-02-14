@@ -1,0 +1,35 @@
+.textCarousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+    background-color: #eff5ff;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.carouselItem {
+    width: 300px;
+    height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.cursor {
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
